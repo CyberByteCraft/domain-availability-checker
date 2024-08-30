@@ -2,6 +2,11 @@
 Domain Checker is a simple tool for monitoring the availability of domains and sending notifications
 via email and/or Discord. This tool is packaged as a Docker container for easy deployment in any environment.
 
+# Docker Hub
+  This image is also available on Docker Hub: https://hub.docker.com/r/cyberbytecraft/domain-checker
+
+
+  
 # Features
  - Monitor domain availability
  - Send notifications via email and/or Discord
@@ -24,7 +29,10 @@ via email and/or Discord. This tool is packaged as a Docker container for easy d
 cyberbytecraft/domain-checker:0.03
 ```
 
+
 # Environment Variables
+
+
 
 #   POSTFIX_MYHOSTNAME
  - Set the hostname for the Postfix server.
