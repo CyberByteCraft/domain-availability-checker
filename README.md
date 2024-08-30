@@ -1,4 +1,4 @@
-# Domain Checker
+# Domain Availability Checker (DAC)
 Domain Checker is a simple tool for monitoring the availability of domains and sending notifications
 via email and/or Discord. This tool is packaged as a Docker container for easy deployment in any environment.
 
