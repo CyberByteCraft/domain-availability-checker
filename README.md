@@ -1,6 +1,6 @@
 # Domain Availability Checker (DAC)
 Domain Checker is a simple tool for monitoring the availability of domains and sending notifications
-via email and/or Discord. This tool is packaged as a Docker container for easy deployment in any environment.
+via email. This tool is packaged as a Docker container for easy deployment in any environment.
 
 # Docker Hub
   This image is also available on Docker Hub: https://hub.docker.com/r/cyberbytecraft/domain-checker
