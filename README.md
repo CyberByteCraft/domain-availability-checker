@@ -17,12 +17,12 @@ via email and/or Discord. This tool is packaged as a Docker container for easy d
 
 ```bash
 -docker run --name domain-checker \
--e POSTFIX_MYHOSTNAME="mail.pushedgaming.at" \
--e POSTFIX_MYDOMAIN="pushedgaming.at" \
--e EMAIL_FROM="domainchecker@pushedgaming.at" \
--e EMAIL_TO="admin@pushedv.de" \
+-e POSTFIX_MYHOSTNAME="example.com" \
+-e POSTFIX_MYDOMAIN="example.com" \
+-e EMAIL_FROM="example.com" \
+-e EMAIL_TO="example.com" \
 -e NOTIFICATION_METHODS="email" \
--e DOMAINS="withercraft.de" \
+-e DOMAINS="example.com" \
 -e COOLDOWN=3600 \
 -e LOG_LEVEL="INFO" \
 --restart always \
@@ -36,19 +36,19 @@ cyberbytecraft/domain-checker:0.03
 
 #   POSTFIX_MYHOSTNAME
  - Set the hostname for the Postfix server.
- - Example: "mail.pushedgaming.at"
+ - Example: "example.com"
 
 #   POSTFIX_MYDOMAIN
  - Set the domain name for the Postfix server.
- - Example: "pushedgaming.at"
+ - Example: "example.com"
 
 #   EMAIL_FROM
  - Specify the sender email address.
- - Example: "domainchecker@pushedgaming.at"
+ - Example: "example.com"
 
 #   EMAIL_TO
  - Specify the recipient email address.
- - Example: "admin@pushedv.de"
+ - Example: "example.com"
 
 #   NOTIFICATION_METHODS
  - Specify the notification methods, e.g., email or Discord.
@@ -56,7 +56,7 @@ cyberbytecraft/domain-checker:0.03
 
 #   DOMAINS
  - List the domains to monitor, separated by commas.
- - Example: "withercraft.de"
+ - Example: "example.com"
 
 #   COOLDOWN
  - Set the cooldown time in seconds between domain checks.
